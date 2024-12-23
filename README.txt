@@ -16,8 +16,6 @@
     -what pairs will be traded?
         - GBPUSD, USDJPY, GBPJPY, XAUUSD
 
-    
-
 - It will analyse the trades and sort through it to define which entry models do the best and what does the worst
     and calculate the win rate and profitability 
 
@@ -28,7 +26,8 @@
 
 - It will showcase what times and intervals I make the most money
 - it will indicate whether I overleveraged or stayed with in a defined risk tolerance
-    - Sees how much margin is being used based on each symbol/pair (marginused)
+    + Sees how much margin is being used based on each symbol/pair (marginused)
+    + Calculate the pip value to enusre only 1% of account is risked per trade
 
 -What are the criterias?
     - 
@@ -47,3 +46,22 @@
 - once its been tested I will then allow it to trade based on that  
 
 - Add a feature that reviews the charts for pairs and identify key areas of support and resistance/ what price the pair experiences the most volitilty in one direction
+
+GAMEPLAN
+[] phase 1
++ Connect the tradelocker to googlesheets
+
+[] phase 2
++ once information can be pulled from tradelocker and translated to googlesheets ensure it can track trades taken
+
+[] phase 3
++ Once the data is tracked create code to organize the data and fil  ter through it 
+
+[] phase 4
++ Creating trading models
+
+[] phase 5
++ Test trading models
+
+[] phase 6
++ automate the process 
