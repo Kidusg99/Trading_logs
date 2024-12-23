@@ -48,6 +48,7 @@
 - Add a feature that reviews the charts for pairs and identify key areas of support and resistance/ what price the pair experiences the most volitilty in one direction
 
 GAMEPLAN
+----------------------------------------------------------------------------------------------------------------
 [] phase 1
 + Connect the tradelocker to googlesheets
 
@@ -55,7 +56,7 @@ GAMEPLAN
 + once information can be pulled from tradelocker and translated to googlesheets ensure it can track trades taken
 
 [] phase 3
-+ Once the data is tracked create code to organize the data and fil  ter through it 
++ Once the data is tracked create code to organize the data and filter through it 
 
 [] phase 4
 + Creating trading models
